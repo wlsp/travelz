@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+// font-family: 'Inter', sans-serif;
+// font-family: 'Playfair Display', serif;
+// colors: #FB8F1D / #FFF / #000  / #1ABE84 / #B8BECD / #F9F9FB / #202336 / #4A4C53 / #AFB0B9 /#7D7987 / #C4C4C4 / #848484 /
+
+// variables 
+$main-font-color: #202336;
+$second-color: #B8BECD;
+
+#hero {
+    background: url('../img/hero1.png') center/contain no-repeat;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    margin: 2% auto;
+    padding: 0 10%;
+    color: #202336;
+
+    .content-hero {
+        width: 50%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 700;
+            width: 70%;
+        }
+
+        h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        .underscore {
+            margin: 0 0 10% 0;
+        }
+
+        form {
+            width: 30rem;
+            height: 12rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            select {
+                width: 13.75rem;
+                height: 2.5rem;
+                padding: 0.0625rem 1.875rem;
+                border-radius: 0.313rem;
+                border: 0.063rem solid #AFB0B9;
+                color: #4A4C53;
+            }
+
+            button {
+                display: block;
+                font-family: 'Inter', sans-serif;
+                font-size: 1rem;
+                font-weight: 700;
+                border-radius: 0.613rem;
+                border: none;
+                background-color: #FB8F1D;
+                color: #fff;
+                padding: 0.05rem 1.875rem;
+            }
+        }
+    }
+}

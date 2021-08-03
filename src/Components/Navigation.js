@@ -12,7 +12,7 @@ const Navigation = () => {
             </figure>
             <ul>
                 <li>
-                    <NavLink exact to="/" activeClassName="isActive">Home</NavLink>
+                    <NavLink exact to="/home" activeClassName="isActive">Home</NavLink>
                 </li>
                 <li>
                     <NavLink to="/destinations" activeClassName="isActive">Destination</NavLink>

@@ -1,39 +1,15 @@
-
-import Underscore from '../img/underscore.svg';
 import './Home.scss';
-import Explore from "./Explore";
 
 const Home = () => {
     return (
-        <>
-        <section id="hero">
-            <article className="content-hero">
-            <div>
-                <h1>Explore and Travel</h1>
-                <h2>Holiday finder</h2>
-                <div className="underscore">
-                    <img src={Underscore} alt="underscore"/>
-                </div>
-                <form>
-                    <select className="location">
-                        <option>Location</option>
-                    </select>
-                    <select className="activity">
-                        <option>Activity</option>
-                    </select>
-                    <select className="grade">
-                        <option>Grade</option>
-                    </select>
-                    <select className="date">
-                        <option>Date</option>
-                    </select>
-                <button>Explore</button>
-                </form>
-                </div>
-            </article>
-        </section>
-        <Explore/>
-        </>
+        <article id="explorer">
+            <div className="content-explorer">
+                <h3>A new way to explore the world</h3>
+                <p>For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect
+                    trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+                <button>Learn more</button>
+            </div>
+        </article>
     );
 }
 
